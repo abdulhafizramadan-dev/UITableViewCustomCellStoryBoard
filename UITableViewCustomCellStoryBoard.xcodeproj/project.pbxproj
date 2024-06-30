@@ -16,6 +16,8 @@
 		3C5027A32C30520E00A493F2 /* UITableViewCustomCellStoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5027A22C30520E00A493F2 /* UITableViewCustomCellStoryBoardTests.swift */; };
 		3C5027AD2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5027AC2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITests.swift */; };
 		3C5027AF2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5027AE2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITestsLaunchTests.swift */; };
+		3C5027BD2C30549100A493F2 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5027BC2C30549100A493F2 /* CustomTableViewCell.xib */; };
+		3C5027BE2C30549100A493F2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5027BB2C30549100A493F2 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C5027A82C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewCustomCellStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5027AC2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCustomCellStoryBoardUITests.swift; sourceTree = "<group>"; };
 		3C5027AE2C30520E00A493F2 /* UITableViewCustomCellStoryBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCustomCellStoryBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C5027BB2C30549100A493F2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		3C5027BC2C30549100A493F2 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3C5027942C30520E00A493F2 /* Assets.xcassets */,
 				3C5027962C30520E00A493F2 /* LaunchScreen.storyboard */,
 				3C5027992C30520E00A493F2 /* Info.plist */,
+				3C5027BB2C30549100A493F2 /* CustomTableViewCell.swift */,
+				3C5027BC2C30549100A493F2 /* CustomTableViewCell.xib */,
 			);
 			path = UITableViewCustomCellStoryBoard;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				3C5027952C30520E00A493F2 /* Assets.xcassets in Resources */,
 				3C5027982C30520E00A493F2 /* Base in Resources */,
+				3C5027BD2C30549100A493F2 /* CustomTableViewCell.xib in Resources */,
 				3C5027932C30520C00A493F2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				3C5027902C30520C00A493F2 /* ViewController.swift in Sources */,
 				3C50278C2C30520C00A493F2 /* AppDelegate.swift in Sources */,
+				3C5027BE2C30549100A493F2 /* CustomTableViewCell.swift in Sources */,
 				3C50278E2C30520C00A493F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
